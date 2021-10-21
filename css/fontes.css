@@ -1,0 +1,150 @@
+@font-face {
+    font-family: 'encodeSansCondensed-Black';
+    src: url('font/EncodeSansCondensed-Black.ttf');
+    src: local('encodeSansCondensed-Black'), local('encodeSansCondensed-Black'), url('font/EncodeSansCondensed-Black.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'encodeSansCondensed-Bold';
+    src: url('font/EncodeSansCondensed-Bold.ttf');
+    src: local('encodeSansCondensed-Bold'), local('encodeSansCondensed-Bold'), url('font/EncodeSansCondensed-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'encodeSansCondensed-ExtraBold';
+    src: url('font/EncodeSansCondensed-ExtraBold.ttf');
+    src: local('encodeSansCondensed-ExtraBold'), local('encodeSansCondensed-ExtraBold'), url('font/EncodeSansCondensed-ExtraBold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'encodeSansCondensed-ExtraLight';
+    src: url('font/EncodeSansCondensed-ExtraLight.ttf');
+    src: local('encodeSansCondensed-ExtraLight'), local('encodeSansCondensed-ExtraLight'), url('font/EncodeSansCondensed-ExtraLight.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'encodeSansCondensed-Light';
+    src: url('font/EncodeSansCondensed-Light.ttf');
+    src: local('encodeSansCondensed-Light'), local('encodeSansCondensed-Light'), url('font/EncodeSansCondensed-Light.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'encodeSansCondensed-Medium';
+    src: url('font/EncodeSansCondensed-Medium.ttf');
+    src: local('encodeSansCondensed-Medium'), local('encodeSansCondensed-Medium'), url('font/EncodeSansCondensed-Medium.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'encodeSansCondensed-Regular';
+    src: url('font/EncodeSansCondensed-Regular.ttf');
+    src: local('encodeSansCondensed-Regular'), local('encodeSansCondensed-Regular'), url('font/EncodeSansCondensed-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'encodeSansCondensed-SemiBold';
+    src: url('font/EncodeSansCondensed-SemiBold.ttf');
+    src: local('encodeSansCondensed-SemiBold'), local('encodeSansCondensed-SemiBold'), url('font/EncodeSansCondensed-SemiBold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'encodeSansCondensed-Thin';
+    src: url('font/EncodeSansCondensed-Thin.ttf');
+    src: local('encodeSansCondensed-Thin'), local('encodeSansCondensed-Thin'), url('font/EncodeSansCondensed-Thin.ttf') format('truetype');
+}
+
+:root {
+    --font-family-encodeSansCondensed-Black: -apple-system, 'encodeSansCondensed-Black';
+    --font-family-encodeSansCondensed-Bold: -apple-system, 'encodeSansCondensed-Bold';
+    --font-family-encodeSansCondensed-ExtraBold: -apple-system, 'encodeSansCondensed-ExtraBold';
+    --font-family-encodeSansCondensed-ExtraLight: -apple-system, 'encodeSansCondensed-ExtraLight';
+    --font-family-encodeSansCondensed-Light: -apple-system, 'encodeSansCondensed-Light';
+    --font-family-encodeSansCondensed-Medium: -apple-system, 'encodeSansCondensed-Medium';
+    --font-family-encodeSansCondensed-Regular: -apple-system, 'encodeSansCondensed-Regular';
+    --font-family-encodeSansCondensed-SemiBold: -apple-system, 'encodeSansCondensed-SemiBold';
+    --font-family-encodeSansCondensed-Thin: -apple-system, 'encodeSansCondensed-Thin';
+}
+
+.titulo {
+    font-family: var(--font-family-encodeSansCondensed-Light);
+}
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--font-family-encodeSansCondensed-Bold);
+    letter-spacing: 1px;
+}
+
+body {
+    font-family: var(--font-family-encodeSansCondensed-Medium);
+    letter-spacing: 1px;
+}
+
+.btn,
+button,
+.card-title {
+    font-family: var(--font-family-encodeSansCondensed-SemiBold);
+    letter-spacing: 1px;
+}
+
+.m-0.h5 {
+    font-size: 1.125rem;
+}
+
+.fonte-black {
+    font-family: var(--font-family-encodeSansCondensed-Black);
+}
+
+.fonte-bold {
+    font-family: var(--font-family-encodeSansCondensed-Bold);
+}
+
+.fonte-extra-bold {
+    font-family: var(--font-family-encodeSansCondensed-ExtraBold);
+}
+
+.fonte-extra-light {
+    font-family: var(--font-family-encodeSansCondensed-ExtraLight);
+}
+
+.fonte-bold {
+    font-family: var(--font-family-encodeSansCondensed-Bold);
+}
+
+.fonte-medium {
+    font-family: var(--font-family-encodeSansCondensed-Medium);
+}
+
+.fonte-regular {
+    font-family: var(--font-family-encodeSansCondensed-Regular);
+}
+
+.fonte-semi-bold {
+    font-family: var(--font-family-encodeSansCondensed-SemiBold);
+}
+
+.fonte-thin {
+    font-family: var(--font-family-encodeSansCondensed-Thin);
+}
+
+
+@media screen and (max-width: 767px) {
+    .diminuir {
+        font-size: 0.85rem;
+    }
+}
+
+@media screen and (max-width: 478px) {
+    .diminuir {
+        font-size: 0.75rem;
+    }
+}

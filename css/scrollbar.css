@@ -1,0 +1,57 @@
+/* Referente aos cards com icones da página principal
+ e também as barras de rolagem horizontal e vertical
+*/
+
+.container-scroll>.row {
+    overflow-x: auto;
+    white-space: nowrap;
+    /* display: inline-block; */
+    display: block;
+    max-width: 100%;
+    position: relative;
+    word-wrap: break-word;
+}
+
+.container-scroll>.row:hover::-webkit-scrollbar-thumb:horizontal {
+    height: 12px;
+    border-radius: 10px;
+    background-color: #888;
+    transition: 200ms;
+}
+
+.container-scroll>.row>.col-md-2 {
+    display: inline-block;
+    float: none;
+    padding: 0px;
+    white-space: normal;
+}
+
+::-webkit-scrollbar {
+    -webkit-appearance: none;
+}
+
+::-webkit-scrollbar:vertical {
+    width: 12px;
+}
+
+::-webkit-scrollbar:horizontal {
+    height: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, .25);
+    border-radius: 10px;
+    border: 2px solid #ffffff;
+}
+
+::-webkit-scrollbar-track {
+    border-radius: 10px;
+    background-color: #ffffff;
+}
+
+@media (max-width: 480px) {
+    .veented-slider-scroll-button-holder,
+    .veented-slider-scroll-button-holder:after {
+        display: block;
+    }
+}

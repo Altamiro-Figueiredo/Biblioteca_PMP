@@ -1,0 +1,38 @@
+@import "variaveis.css";
+
+/* botão e card customizado  */
+
+.btn-principal {
+    color: #fff;
+    background-color: var(--corSecundaria);
+}
+
+.btn-principal:hover {
+    color: #fff;
+    background-color: var(--corPrincipal);
+    border-color: #1d2124;
+}
+
+
+/* botão Cores Padrão */
+
+.btn-corSecundaria {
+    color: #fff;
+    background-color: var(--corSecundaria);
+}
+
+.btn-corSecundaria:hover {
+    color: #fff;
+    background-color: var(--corPrincipal);
+    border-color: #1d2124;
+}
+
+.btn-corTerceira {
+    color: #fff;
+    background-color: var(--corTerceira);
+}
+
+.btn-corTerceira:hover {
+    color: #fff;
+    background-color: var(--corPrincipal);
+}

@@ -1,0 +1,226 @@
+@import "variaveis.css";
+@import "fontes.css";
+:root {
+    --curvatura: 40px;
+}
+
+@media screen and (min-width: 991px) {
+    .tira-zoom {
+        zoom: 90%;
+    }
+}
+
+.covidCinza {
+    background-color: var(--covidCinza);
+}
+
+.covidVermelho {
+    background-color: var(--covidVermelho);
+}
+
+.covidPreto {
+    background-color: var(--covidPreto);
+}
+
+.covidVermelho1 {
+    background-color: var(--covidVermelho01);
+}
+
+.covidVermelho2 {
+    background-color: var(--covidVermelho02);
+}
+
+.covidVermelho3 {
+    background-color: var(--covidVermelho03);
+}
+
+.covidVermelho4 {
+    background-color: var(--covidVermelho04);
+}
+.covidLaranja {
+    background-color: var(--covidLaranja);
+}
+
+.logo {
+    height: 120px;
+    width: auto;
+}
+
+.logoBaixoEsquedo {
+    width: 160px;
+    height: auto;
+}
+
+.logoBaixoDireito {
+    width: 120px;
+    height: auto;
+    padding-top: 2px;
+}
+
+.curvatura {
+    border: 0px;
+    padding: 10px;
+    border-radius: 17.5px;
+}
+
+.curvatura-card {
+    border: 0px;
+    padding: 4px;
+    border-radius: var(--curvatura);
+}
+
+.curvatura-cima {
+    border: 0px;
+    border-radius: var(--curvatura) var(--curvatura) 0px 0px;
+}
+
+.curvatura-baixo {
+    border: 0px;
+    border-radius: 0px 0px var(--curvatura) var(--curvatura);
+}
+
+.curvatura-comparacao {
+    border: 4px solid var(--covidCinza);
+    padding: 10px;
+    border-radius: 17.5px;
+    color: var(--covidCinza);
+}
+
+.linha {
+    background: linear-gradient(#fff, #fff) no-repeat right/2px 100%;
+}
+
+.texto-cima {
+    font-size: 9pt;
+    line-height: 5px;
+}
+
+.texto-baixo {
+    font-size: 15pt;
+}
+
+.texto-cima.inverso {
+    font-size: 13pt;
+    line-height: normal;
+}
+
+.texto-baixo.inverso {
+    font-size: 10pt;
+}
+
+.numero {
+    font-size: 30pt;
+    line-height: 45px;
+    padding-right: 0px;
+}
+
+.numero.porcentagem {
+    font-size: 28pt;
+}
+
+.numero-porcentagem {
+    font-size: 37pt;
+    font-family: var(--font-family-encodeSansCondensed-ExtraBold);
+}
+
+@media all and (min-width: 1200px) {
+    .numero {
+        padding-right: 15px;
+    }
+}
+
+@media all and (max-width: 990px) {
+    .texto-cima {
+        font-size: 9pt;
+        line-height: 5px;
+    }
+    .texto-baixo {
+        font-size: 12pt;
+    }
+    .texto-cima.inverso {
+        font-size: 12pt;
+    }
+    .texto-baixo.inverso {
+        font-size: 9pt;
+    }
+    .numero {
+        font-size: 24pt;
+        line-height: 45px;
+    }
+    .numero.porcentagem {
+        font-size: 20pt;
+    }
+}
+
+@media all and (max-width: 768px) {
+    .texto-cima {
+        font-size: 7pt;
+        line-height: 5px;
+    }
+    .texto-baixo {
+        font-size: 10pt;
+    }
+    .texto-cima.inverso {
+        font-size: 8pt;
+    }
+    .texto-baixo.inverso {
+        font-size: 7pt;
+    }
+    .numero {
+        font-size: 22pt;
+        line-height: 45px;
+    }
+    .numero.porcentagem {
+        font-size: 20pt;
+    }
+}
+
+@media all and (max-width: 575px) {
+    .texto-cima.taxa {
+        line-height: 15px;
+    }
+}
+
+@media all and (max-width: 530px) {
+    .texto-cima {
+        font-size: 6pt;
+        line-height: 5px;
+    }
+    .texto-baixo {
+        font-size: 9pt;
+    }
+    .numero {
+        font-size: 18pt;
+        line-height: 45px;
+        padding-right: 6px;
+    }
+    .numero.porcentagem {
+        font-size: 18pt;
+    }
+}
+
+@media all and (max-width: 447px) {
+    .texto-cima {
+        font-size: 7pt;
+        line-height: 10px;
+    }
+    .texto-baixo {
+        font-size: 8pt;
+    }
+    .numero {
+        font-size: 14pt;
+        line-height: 45px;
+        margin-left: 10px !important;
+        padding-right: 3px;
+    }
+    .numero.porcentagem {
+        font-size: 14pt;
+    }
+}
+
+@media all and (max-width: 393px) {
+    .numero {
+        margin-left: 0px !important;
+        padding-right: 0;
+    }
+}

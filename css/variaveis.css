@@ -1,0 +1,22 @@
+:root {
+    /* cores principais */
+    --corPrincipal: #09366F;
+    --corSecundaria: #1BB5DA;
+    --corTerceira: #005796;
+    /* cor de fundo */
+    --corCinzaClaro: #F3F3F3;
+    /* cores fale conosco */
+    --facebook: #1970AB;
+    --whatsapp: #18BA9B;
+    --ouvidoria: #9A69CB;
+    --telefone: #FF6E27;
+    /* Covid */
+    --covidCinza: #a5a5a5;
+    --covidVermelho: #e63333;
+    --covidPreto: #4c4c4c;
+    --covidVermelho01: #ff9898;
+    --covidVermelho02: #fd7171;
+    --covidVermelho03: #f25050;
+    --covidVermelho04: #e63333;
+    --covidLaranja: #ff7f00;
+}
