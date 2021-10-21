@@ -1,0 +1,155 @@
+.logoMenu {
+    width: 220px !important;
+    /* height: 96px; */
+    height: auto;
+}
+
+.img-empresas{
+    height: 100px;
+    width: auto;
+}
+
+.logoRodape {
+    width: 183px !important;
+    /* height: 70px; */
+    height: auto;
+}
+
+.pre-view{
+    max-width: 300px;
+    height: auto;
+}
+
+.table-img{
+    width: 48px;
+    height: auto;
+}
+
+.imgCidade {
+    width: 720px;
+    height: auto;
+}
+
+.img-manchete {
+    width: 128px;
+    height: 100px;
+}
+
+.faleConosco {
+    width: 70px;
+    height: auto;
+}
+
+.icone-menuLateral {
+    width: 1rem;
+    height: auto;
+}
+
+/* observar pdf já cadastrado */
+embed.pdf{
+    width:100%;
+    height:25vw;
+}
+
+@media screen and (max-width: 992px) {
+    embed.pdf{
+        height: 250px;
+        width: 416px;
+    }
+}
+/* fim observar pdf já cadastrado */
+
+/* incones do topo --corSecundaria */
+
+.iconeTopo {
+    width: 25px;
+    height: auto;
+    /* para deixar a imagem branca*/
+    filter: brightness(0) invert(1);
+}
+
+.iconeTopo:hover {
+    filter: none;
+}
+
+@media screen and (min-width: 576px) {
+    .mapa{
+        width: 500px;
+        height: auto;
+    }
+    .simbolo{
+        height: 240px;
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .mapa{
+        width: 400px;
+        height: auto;
+    }
+    .simbolo{
+        height: 200px;
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .mapa{
+        width: 300px;
+        height: auto;
+    }
+    .simbolo{
+        height: 180px;
+        width: auto;
+    }
+}
+
+
+/* Hover Imagem */
+
+.card.zoom,
+.col.zoom .media,
+.col.zoom>.list-unstyled>.media,
+.carousel-item.zoom {
+    position: relative;
+    overflow: hidden;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.card.zoom a img,
+.card.zoom img,
+.col.zoom .media img,
+.col.zoom>.list-unstyled>.media,
+.carousel-item.zoom a img {
+    vertical-align: top;
+    max-width: 100%;
+    -moz-transition: all 5000ms;
+    -webkit-transition: all 5000ms;
+    transition: all 5000ms;
+}
+
+.card.zoom a:hover img,
+.col.zoom .media:hover img,
+.col.zoom>.list-unstyled>.media:hover>img,
+.carousel-item.zoom a:hover img {
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.card.zoom:hover img {
+    -moz-transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+}
+
+
+/* imagem svg hover */
+
+.media:hover>embed {
+    transform: scale(1.1);
+    transition: 400ms;
+}

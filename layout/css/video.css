@@ -1,0 +1,28 @@
+@media screen and (min-width: 768px) {
+    .video {
+        height: 315px;
+        width: 560px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .video {
+        height: 250px;
+        width: 444px;
+    }
+}
+
+@media screen and (max-width: 478px) {
+    .video {
+        height: 175px;
+        width: 311px;
+    }
+}
+
+.hino p {
+    font-size: 18px;
+}
+
+.musica {
+    font-size: 14px !important;
+}

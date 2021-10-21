@@ -1,0 +1,50 @@
+@import "variaveis.css";
+.container-scroll>.row>.col-4 {
+    height: 100%;
+    font-size: 0.875rem;
+    vertical-align: text-bottom;
+}
+
+@media all and (max-width: 1199px) {
+    /* isso ocorre com a primeira quebra de linha */
+    .container-scroll>.row>.col-4.icone>.card {
+        padding-top: 28px !important;
+    }
+    .row>.col-4.icone>.card {
+        height: 115px;
+        font-size: 0.75rem;
+        font-weight: bold;
+        padding-top: 32px !important;
+    }
+    .row>.col-4.icone>.card:hover {
+        font-size: 0.875rem;
+    }
+}
+
+@media not all and (max-width: 1199px) {
+    /* isso ocorre com a primeira quebra de linha */
+    .container-scroll>.row>.col-4.icone>.card {
+        height: 130px;
+        padding-top: 36px !important;
+    }
+    .row>.col-4.icone>.card {
+        height: 130px;
+        padding-top: 36px !important;
+        font-size: 0.875rem;
+    }
+    .row>.col-4.icone>.card:hover {
+        height: 130px;
+        padding-top: 36px !important;
+        font-size: 1rem;
+    }
+}
+
+.card.alert.alert-secondary:hover {
+    color: #1d2124;
+    border-color: var(--corSecundaria);
+    transition: 200ms;
+}
+
+.card.alert.alert-secondary.icone:hover {
+    font-weight: bold;
+}

@@ -1,0 +1,103 @@
+@import "variaveis.css";
+
+/* Estilo Customizado */
+
+@media screen and (min-width: 768px) {
+    html {
+        zoom: 90%;
+    }
+}
+
+
+/* usado para ajusar a página mesmo com o zoom 90% */
+
+.modal-backdrop {
+    width: 100% !important;
+    height: 100% !important;
+}
+
+
+/* Código para o rodapé ficar colado embaixo */
+
+body {
+    /* com a página 90% usar 111.111vh para que a página passe a sensação de estar em tamanho 'normal' */
+    min-height: 111.111vh; 
+    /* min-height: 100vh;  */
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    margin-top: auto;
+    font-size: 0.70rem;
+}
+
+
+/* Fim Código para o rodapé ficar colado embaixo */
+
+.corPrincipal {
+    background-color: var(--corPrincipal);
+}
+
+.txtPrincipal {
+    color: var(--corPrincipal);
+}
+
+.corSecundaria {
+    background-color: var(--corSecundaria);
+}
+
+.txtSecundaria {
+    color: var(--corSecundaria);
+}
+
+.corCinzaClaro {
+    background-color: var(--corCinzaClaro);
+    /* border: 0px; */
+}
+
+a {
+    color: var(--corPrincipal);
+}
+
+a:hover {
+    color: var(--corSecundaria);
+}
+
+.descricao-tipo {
+    color: var(--corSecundaria) !important;
+}
+
+.border-principal {
+    border: 1px solid var(--corSecundaria) !important;
+}
+
+.container.compressar-card>.row>.col-md-2 {
+    padding: 2px;
+}
+
+.stretched-link.link2 {
+    position: relative;
+}
+
+.facebook {
+    color: var(--facebook);
+}
+
+.whatsapp {
+    color: var(--whatsapp);
+}
+
+.ouvidoria {
+    color: var(--ouvidoria);
+}
+
+.telefone {
+    color: var(--telefone);
+}
+
+.border.border-light.corCinzaClaro:hover,
+.border.border-light.bg-white:hover {
+    border-width: 1px;
+    border-color: var(--corSecundaria) !important;
+}
